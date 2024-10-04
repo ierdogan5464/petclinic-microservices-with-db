@@ -112,4 +112,8 @@
     shell: "{{ hostvars['kube_master']['worker_join'] }}"
     register: result_of_joining
 
+<<<<<<< HEAD
   - debug: msg='{{ result_of_joining.stdout }}'
+=======
+  - debug: msg='{{ result_of_joining.stdout }}'
+>>>>>>> feature/msp-23
